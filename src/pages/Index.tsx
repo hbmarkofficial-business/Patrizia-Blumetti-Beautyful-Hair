@@ -12,22 +12,22 @@ const Index = () => {
     <>
       <Helmet>
         {/* Titel & Meta Description */}
-        <title>Barbershop Prenzlauer Berg | The Gentleman's Cut</title>
+        <title>Friseursalon Bergisch Gladbach | Patrizia Blumetti Beautyful Hair</title>
         <meta
           name="description"
-          content="Besuche unseren Premium Barbershop The Gentleman's Cut in Berlin Prenzlauer Berg für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
+          content="Besuche unseren Premium Friseursalon Patrizia Blumetti Beautyful Hair in Bergisch Gladbach für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
         />
         <meta
           name="keywords"
-          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Berlin, Prenzlauer Berg"
+          content="Friseursalon, Herrenfriseur, Damenfriseur, Haarschnitt, Bartpflege, Rasur, Bergisch Gladbach"
         />
         <link rel="canonical" href="https://gentlemanscut.de" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta property="og:title" content="Patrizia Blumetti Beautyful Hair | Premium Friseursalon Bergisch Gladbach" />
         <meta
           property="og:description"
-          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Berlin Prenzlauer Berg."
+          content="Erstklassige Haarschnitte und Bartpflege in Bergisch Gladbach bei Patrizia Blumetti Beautyful Hair."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://gentlemanscut.de" />
@@ -35,10 +35,10 @@ const Index = () => {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta name="twitter:title" content="Patrizia Blumetti Beautyful Hair | Premium Friseursalon Bergisch Gladbach" />
         <meta
           name="twitter:description"
-          content="Erleben Sie erstklassige Haarschnitte und Bartpflege für den modernen Gentleman."
+          content="Erleben Sie erstklassige Haarschnitte und professionelles Styling."
         />
         <meta name="twitter:image" content="https://gentlemanscut.de/images/og-image.png" />
 
@@ -46,29 +46,29 @@ const Index = () => {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Barbershop",
-            "name": "The Gentleman's Cut",
+            "@type": "HairSalon",
+            "name": "Patrizia Blumetti Beautyful Hair",
             "image": "https://gentlemanscut.de/images/logo.png",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Straße 12",
-              "addressLocality": "Berlin",
-              "postalCode": "10115",
+              "streetAddress": "Mutzer Str. 15",
+              "addressLocality": "Bergisch Gladbach",
+              "postalCode": "51467",
               "addressCountry": "DE"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "52.5200",
-              "longitude": "13.4050"
+              "latitude": "50.9918",
+              "longitude": "7.1293"
             },
             "url": "https://gentlemanscut.de",
-            "telephone": "+49 30 1234567",
-            "openingHours": "Mo-Fr 09:00-19:00, Sa 09:00-17:00",
+            "telephone": "+49 1577 4460986",
+            "openingHours": "Di-Fr 09:00-18:00, Do 09:00-19:00, Sa 08:00-14:00",
             "priceRange": "€€",
-            "servesCuisine": "Barbershop Services",
+            "servesCuisine": "Friseursalon Services",
             "sameAs": [
-              "https://www.facebook.com/gentlemanscut",
-              "https://www.instagram.com/gentlemanscut"
+              "https://www.facebook.com/patriziablumetti",
+              "https://www.instagram.com/patriziablumetti"
             ]
           })}
         </script>
